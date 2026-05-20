@@ -28,6 +28,7 @@ export const heroSlides = [
 export const products = [
   {
     name: 'Haldi Trio Set',
+    originalPrice: '₹1663',
     price: '₹499',
     image: '/banner-image-1.png',
     alt: 'Haldi Trio Set in a Suvarna Veni gift box',
@@ -35,6 +36,7 @@ export const products = [
   },
   {
     name: 'Marigold Scrunchie',
+    originalPrice: '₹663',
     price: '₹199',
     image: '/banner-image-2.png',
     alt: 'Marigold crochet scrunchie styled in hair',
@@ -42,6 +44,7 @@ export const products = [
   },
   {
     name: 'Pastel Trio Set',
+    originalPrice: '₹1663',
     price: '₹499',
     image: '/banner-image-3.png',
     alt: 'Pastel crochet scrunchie trio flatlay',
@@ -49,6 +52,7 @@ export const products = [
   },
   {
     name: 'College Collection',
+    originalPrice: '₹2330',
     price: '₹699',
     image: '/banner-image-1.png',
     alt: 'Crochet accessories for college everyday styling',
