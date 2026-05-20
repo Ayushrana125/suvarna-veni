@@ -64,7 +64,7 @@ function BestSellers() {
                 <span className="text-base font-bold text-cocoa sm:text-lg">{product.price}</span>
               </div>
               <a
-                href={`https://wa.me/919987380343?text=${encodeURIComponent(`Hello Deepti from Suvarna Veni! 🌸\nI want to place an order for "${product.name}" 🛍️\nThank you! 😊`)}`}
+                href={`https://wa.me/919987380181?text=${encodeURIComponent(`Hello Deepti from Suvarna Veni! 🌸\nI want to place an order for "${product.name}" 🛍️\nThank you! 😊`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 inline-flex w-full items-center justify-center gap-1 rounded-sm border border-cocoa/40 px-2 py-2 text-[9px] font-bold uppercase tracking-[0.08em] text-cocoa transition hover:bg-cocoa hover:text-white sm:mt-5 sm:gap-2 sm:px-4 sm:py-3 sm:text-xs sm:tracking-[0.14em]"
