@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: local('Cormorant Garamond');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter');
+}
+
+:root {
+  color: #2b2b2b;
+  background: #f8f5f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 16% 12%, rgba(247, 229, 227, 0.56), transparent 28rem),
+    linear-gradient(180deg, #fbf8f3 0%, #f8f5f0 48%, #fffaf5 100%);
+  color: #2b2b2b;
+  font-family: Inter, system-ui, sans-serif;
+  text-rendering: geometricPrecision;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(216, 178, 110, 0.42);
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.image-skeleton {
+  background: linear-gradient(110deg, #efe6dc 8%, #fff8ef 18%, #efe6dc 33%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+
+@keyframes shimmer {
+  to {
+    background-position-x: -200%;
+  }
+}
